@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>/src/</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esp.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+    <ClInclude Include="vmm.h">
+      <Filter>/include/</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="/include/">
+      <UniqueIdentifier>{deb2cd4a-e6a8-49ad-a42c-d183f04c890e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="/src/">
+      <UniqueIdentifier>{9545b9da-987b-4e56-9b4c-b909230a8f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="/libs/">
+      <UniqueIdentifier>{7c06625a-0fc3-4ca2-97a9-73c908342123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json" />
+  </ItemGroup>
+</Project>

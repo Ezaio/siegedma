@@ -1,0 +1,21 @@
+{
+  "enableESP": true,
+  "enableAimBot": true,
+  "enableTriggerBot": true,
+  "showHealthBars": true,
+  "espColor": [ 0.0, 1.0, 0.0 ],
+  "healthBarColor": [ 1.0, 0.0, 0.0 ],
+  "maxESPDistance": 1000.0,
+  "crosshairThreshold": 10.0,
+  "localPlayerTeamAddr": "0x123456",
+  "localPlayerPosAddr": "0x123457",
+  "entityBaseAddr": "0x654321",
+  "entityTeamOffset": "0x30",
+  "entityPosOffset": "0x50",
+  "entityHealthOffset": "0xF0",
+  "crosshairOffset": "0x78",
+  "aimPitchOffset": "0x40",
+  "aimYawOffset": "0x44",
+  "maxEntities": 64,
+  "entityOffset": "0x10"
+}
